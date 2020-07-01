@@ -2,15 +2,17 @@
 *{
     padding: 0px;
     margin: 0px;
+    box-sizing: border-box;
 }
 
 body{
     font-family: 'Lato', sans-serif;
     color: #333;
+    box-sizing: border-box;
 }
 
 section{
-    padding: 150px 0px;
+    padding: 40px 0px;
 }
 
 .top-banner{
@@ -19,7 +21,7 @@ section{
 }
 
 .container{
-    max-width: 90%;
+    max-width: 85%;
     margin: auto;
     overflow: hidden;
 }
@@ -36,10 +38,13 @@ section{
 
 .header-content{
 
+padding-top: 100px;
+
+padding-left: 16px;
 }
 
 h2{
-    font-size: 40px;
+    font-size: 38px;
 }
 
 h1{
@@ -58,36 +63,158 @@ span{
 
 p{
     color: #707070;
+    width: 90%;
+    padding-top: 18px;
+    padding-bottom: 30px;
 }
 
 .anchor-button{
 
+text-decoration: none;
+
+padding: 10px 40px;
+
+border-radius: 5px;
+
+background: -moz-linear-gradient(left,  #ec4f8f 0%, #ed4b70 100%); /* FF3.6-15 */
+
+background: -webkit-linear-gradient(left,  #ec4f8f 0%,#ed4b70 100%); /* Chrome10-25,Safari5.1-6 */
+
+background: linear-gradient(to right,  #ec4f8f 0%,#ed4b70 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ec4f8f', endColorstr='#ed4b70',GradientType=1 ); /* IE6-9 */
+
+display: inline-block;
+
+color: #fff;
+
+text-transform: uppercase;
+
+font-size: 18px;
 }
 
-.img{}
-img{}
+.img{
+}
+img{
+    max-width: 120%;
+}
 
-.project-area h2{}
+.biography-section{
+    padding-top: 20px;
+    background-image: url(../images/biography-bg.png);
+    background-repeat: no-repeat;
+}
 
-.col{}
-.col img{}
+.biography-section img{
+    width: 75%;
+    height: auto;
+}
 
-.client-section{}
+.bio-content{
+    padding-top: 11em;
+    padding-left: 70px;
+}
+
+.bio-content p{
+    width: 100%;
+}
+
+.project-area{
+    text-align: center;
+    background-image: url(..images/latest-work-bg.png);
+    background-repeat: no-repeat;
+    padding-top: 6.5em;
+    background-position: center;
+}
+
+.project-area h2{
+    margin-bottom: 1.8em;
+}
+
+.col{
+    flex-basis: 33.33%;
+    max-width: 33.33%;
+    padding: 15px;
+}
+.col img{
+    max-width: 100%;
+}
+
+.client-section{
+    background-image: url(../images/footer-bg.png);
+    padding-top: 7em;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
 .client-box{}
+.client-box h2{}
+.client-box p{
+    width: 100%;
+    padding-top: 6px;
+    font-size: 13px;
+}
+.client-box h4{
+    font-weight: 400;
+    margin-bottom: 3.5em;
+}
+.client-box h3{
+    padding-top: 55px;
+    font-size: 16px;
+    font-weight: 700;
+}
 
-.subsciption-box{}
+.subsciption-box{
+    width: 510px;
+    height: 110px;
+    margin: auto;
+    background: linear-gradient(to right,  #ec4f8f 0%,#ed4b70 100%);
+    border-radius: 5px;
+    padding-top: 18px;
+}
 
-.subsciption-box:last-child{}
+.subsciption-box p{
+    padding-bottom: 0px;
+    padding-top: 10px;
+    color: #fff;
+    font-size: 12px;
+}
+
+.subsciption-box .mail{
+    font-size: 18px;
+}
 
 footer{
 
+padding: 70px 0px 30px 0px;
 }
 
-.copy-right{}
+.copy-right{
+    flex-basis: 50%;
+    max-width: 50%;
+    margin-top: 4px;
+    text-align: center;
+    padding-left: 11em;
+}
 
-ul{}
-ul li{}
-ul li a{}
+ul{flex-basis: 50%;max-width: 50%;text-align: center;}
+ul li{
+    list-style: none;
+    display: inline-block;
+}
+ul li a{
+    display: block;
+    height: 30px;
+    width: 30px;
+    background: linear-gradient(to right, #ec4f8f 0%,#ed4b70 100%);
+    font-size: 22px;
+    color: #fff;
+    border-radius: 10px;
+    margin: 0px 20px;
+}
 
-ul li a:hover{}
+ul li a:hover{
+    
+}
 
